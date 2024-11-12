@@ -1,3 +1,46 @@
 h1, h2 {
   text-align: center;
+  background-color: teal;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 0px; /* Corrected syntax here */
+  width: 100%; /* Sets width relative to the viewport to control text wrapping */
+  height: auto; /* Allows the height to adjust to the content */
+  margin-left: auto; /* Centers the element horizontally */
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  overflow: hidden; /* Ensures content stays within boundaries */
+  white-space: nowrap; /* Prevents text wrapping */
+  text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+}
+
+body {
+  font-family: 'Courier New', serif;
+  background-color: #f0f0f0;
+}
+
+h3 {
+  text-align: left;
+  color: white;
+  background-color: #1c1c1c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  padding: 10px;
+  border: 10px solid teal;
+  border-radius: 1px;
+  width: 100%;
+  height: auto;
+}
+
+h2 a {
+  color: teal;
+  text-decoration: none;
+  padding: 2px 15px;
+  margin: 0 50px; /* Increases space between each link */
+  border: 2px solid teal;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
 }
