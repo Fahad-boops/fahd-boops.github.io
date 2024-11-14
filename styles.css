@@ -3,7 +3,7 @@ h1, h2 {
   background-color: teal;
   padding: 10px;
   border: 2px solid black;
-  border-radius: 0px; /* Corrected syntax here */
+  border-radius: 3px; /* Corrected syntax here */
   width: 100%; /* Sets width relative to the viewport to control text wrapping */
   height: auto; /* Allows the height to adjust to the content */
   margin-left: auto; /* Centers the element horizontally */
