@@ -1,9 +1,10 @@
 h1, h2 {
   text-align: center;
   background-color: teal;
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 3px; /* Corrected syntax here */
+  font-family: 'Times New Roman', Times, serif; /* Sets the font to Times New Roman, with fallbacks */
+  padding: 3px;
+  border: 6px solid black;
+  border-radius: 8px; /* Corrected syntax here */
   width: 100%; /* Sets width relative to the viewport to control text wrapping */
   height: auto; /* Allows the height to adjust to the content */
   margin-left: auto; /* Centers the element horizontally */
@@ -12,7 +13,8 @@ h1, h2 {
   margin-top: auto;
   overflow: hidden; /* Ensures content stays within boundaries */
   white-space: nowrap; /* Prevents text wrapping */
-  text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+  text-overflow: ellipsis; /* Adds ellipsis if text overflows 
+  */
 }
 
 body {
@@ -23,20 +25,22 @@ body {
 h3 {
   text-align: left;
   color: white;
-  background-color: #1c1c1c;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -10px;
+   font-family: 'Times New Roman', Times, serif; /* Sets the font to Times New Roman, with fallbacks */
+  background-color: teal;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 10px;
-  border: 10px solid teal;
-  border-radius: 1px;
-  width: 100%;
-  height: auto;
+  border: 5px solid black;
+  border-radius: 7px;
+  width: 20%;
+  height: 20px;
 }
 
 h2 a {
   color: teal;
-  text-decoration: none;
+  text-decoration: Times;
   padding: 2px 15px;
   margin: 0 50px; /* Increases space between each link */
   border: 2px solid teal;
